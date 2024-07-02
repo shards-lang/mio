@@ -30,7 +30,7 @@ pub(crate) fn new_raw() -> io::Result<[RawFd; 2]> {
         target_os = "aix",
         target_os = "ios",
         target_os = "macos",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
         target_os = "espidf",
     ))]
@@ -66,7 +66,7 @@ pub(crate) fn new_raw() -> io::Result<[RawFd; 2]> {
         target_os = "netbsd",
         target_os = "openbsd",
         target_os = "redox",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
         target_os = "espidf",
         target_os = "solaris",

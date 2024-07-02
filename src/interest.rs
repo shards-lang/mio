@@ -37,7 +37,7 @@ impl Interest {
         target_os = "freebsd",
         target_os = "ios",
         target_os = "macos",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     ))]
     pub const AIO: Interest = Interest(unsafe { NonZeroU8::new_unchecked(AIO) });
@@ -162,7 +162,7 @@ impl fmt::Debug for Interest {
             target_os = "freebsd",
             target_os = "ios",
             target_os = "macos",
-            target_os = "tvos",
+            target_os = "tvos", target_os = "visionos",
             target_os = "watchos",
         ))]
         {

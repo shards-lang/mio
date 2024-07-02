@@ -48,7 +48,7 @@ cfg_io_source! {
         target_os = "macos",
         target_os = "netbsd",
         target_os = "openbsd",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     )
 ))]
@@ -63,7 +63,7 @@ mod kqueue;
         target_os = "macos",
         target_os = "netbsd",
         target_os = "openbsd",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     ),
 ))]

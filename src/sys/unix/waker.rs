@@ -6,7 +6,7 @@
             target_os = "freebsd",
             target_os = "ios",
             target_os = "macos",
-            target_os = "tvos",
+            target_os = "tvos", target_os = "visionos",
             target_os = "watchos",
         )
     )),
@@ -59,7 +59,7 @@ mod fdbased {
             target_os = "freebsd",
             target_os = "ios",
             target_os = "macos",
-            target_os = "tvos",
+            target_os = "tvos", target_os = "visionos",
             target_os = "watchos",
         )
     )),
@@ -152,7 +152,7 @@ pub(crate) use self::eventfd::WakerInternal;
         target_os = "freebsd",
         target_os = "ios",
         target_os = "macos",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     )
 ))]
@@ -193,7 +193,7 @@ mod kqueue {
         target_os = "freebsd",
         target_os = "ios",
         target_os = "macos",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     )
 ))]

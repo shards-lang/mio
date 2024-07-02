@@ -297,7 +297,7 @@ fn shutdown_read() {
         target_os = "macos",
         target_os = "netbsd",
         target_os = "openbsd",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     ))]
     {
@@ -387,7 +387,7 @@ fn shutdown_both() {
         target_os = "macos",
         target_os = "netbsd",
         target_os = "openbsd",
-        target_os = "tvos",
+        target_os = "tvos", target_os = "visionos",
         target_os = "watchos",
     ))]
     {
